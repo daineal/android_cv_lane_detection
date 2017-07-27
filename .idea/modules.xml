@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_cv_lane_detection.iml" filepath="$PROJECT_DIR$/android_cv_lane_detection.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/lane_droid.iml" filepath="$PROJECT_DIR$/lane_droid.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary/openCVLibrary.iml" filepath="$PROJECT_DIR$/openCVLibrary/openCVLibrary.iml" />
