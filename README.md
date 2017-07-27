@@ -1,6 +1,9 @@
 # android_cv_lane_detection
 Android lane detection app built with openCV ndk
 
+## Annotation for Dima
+- You should edit path to ndk inside local.properties file
+
 Two kinds of image process method are implemented as two jni calls in `MainActiviy.java`. 
 
 One of them(`com.example.wenfahu.lane_droid.MainActivity#process`) is a slightly improved implementation of [jdorweiler/lane-detection](https://github.com/jdorweiler/lane-detection). Details please visit [Revisiting Lane Detection using OpenCV](https://github.com/jdorweiler/lane-detection).
