@@ -1,7 +1,7 @@
 # android_cv_lane_detection
 Android lane detection app built with openCV ndk
 
-## Annotation for Dima
+### Annotation for Dima
 - You should edit path to ndk inside local.properties file
 
 Two kinds of image process method are implemented as two jni calls in `MainActiviy.java`. 
