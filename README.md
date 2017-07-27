@@ -1,9 +1,6 @@
 # android_cv_lane_detection
 Android lane detection app built with openCV ndk
 
-### Annotation for Dima
-- You should edit path to ndk inside local.properties file
-
 Two kinds of image process method are implemented as two jni calls in `MainActiviy.java`. 
 
 One of them(`com.example.wenfahu.lane_droid.MainActivity#process`) is a slightly improved implementation of [jdorweiler/lane-detection](https://github.com/jdorweiler/lane-detection). Details please visit [Revisiting Lane Detection using OpenCV](https://github.com/jdorweiler/lane-detection).
@@ -22,3 +19,7 @@ The other (`com.example.wenfahu.lane_droid.MainActivity#processOpt`) is a simpli
 Check out your sdk paths and replace them in the Android Studio's `File/Project Structure/SDKLocation` and gradle scripts and `jni/Android.mk` .
 
 The project is built with ARM NEON support (check it out in `jni/Android.mk` : "`LOCAL_ARM_NEON := true`") and tested on an android device with ARM Cortex-A53 chips.
+
+### Annotation for Dima
+- You should edit path to ndk inside local.properties file
+- Import out opencv module and edit dependency in project structure https://habrahabr.ru/post/262089/
